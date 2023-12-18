@@ -37,5 +37,15 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
 
-## Bonous for you. 
+
+### Husky Disabled Warning
+If you encounter a Husky disabled warning on your device, please run the following two commands in your terminal:
+
+
+```bash
+chmod ug+x .husky/*
+chmod ug+x .git/hooks/*
+```
+
+### Bonous for you. 
  This setup is configured to use svg icons out of the box.
